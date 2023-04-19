@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+@font-face {
+    font-family: gilroy;
+    src: url(../css/font/gilroy-bold.ttf);
+}
+.conteiner {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.cont1 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    p {
+        margin-top: 3%;
+    }
+}
+.cont2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    .mac {
+        margin-top: 5%;
+        font-size: 20px;
+        h2 {
+            margin-top: 20%;
+        }
+        .pmac {
+            color: #0071E3;
+        }
+    }
+}
+.cont3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    .buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .button {
+            width: 20%;
+            height: 50px;
+            border-radius: 10px;
+            margin-right: 2%;
+            color: #021414;
+            background-color: #d1afe9;
+            border: transparent;
+            cursor: pointer;
+            transition: all ease-in 300ms;
+        }
+        .button:hover {
+            color: #FFFFFF;
+            background-color: #0071E3;
+        }
+        .buttonS {
+            width: 20%;
+            height: 50px;
+            border-radius: 10px;
+            margin-right: 2%;
+            color: #797979;
+            background-color: #CFE7FF;
+            border: transparent;
+            cursor: pointer;
+            transition: all ease-in 300ms;
+        }
+        .buttonS:hover {
+            color: #FFFFFF;
+            background-color: #0071E3;
+        }
+    }
+    .button1 {
+        width: 42%;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 2px solid  #CFE7FF;
+        background-color: #ffffff;
+        cursor: pointer;
+        transition: all ease-in 300ms;
+    }
+    .button1:hover {
+        border-color: #007FFF;
+    }
+    .button2 {
+        width: 42%;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 2px solid #CFE7FF;
+        background-color: #ffffff;
+        cursor: pointer;
+        transition: all ease-in 300ms;
+    }
+    .button2:hover {
+        border-color: #007FFF;
+    } .button3 {
+        width: 42%;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 2px solid #CFE7FF;
+        background-color: #ffffff;
+        cursor: pointer;
+        transition: all ease-in 300ms;
+    }
+    .button3:hover {
+        border-color: #007FFF;
+    } .button4 {
+        width: 42%;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 2px solid #CFE7FF;
+        background-color: #fff;
+        cursor: pointer;
+        transition: all ease-in 300ms;
+    }
+    .button4:hover {
+        border-color: #007FFF;
+    }
+}
+@media (max-width: 650px){
+   .cont1{
+    font-size: 10px;
+   }
+   .cont2{
+        .mac{
+            font-size: 10px;
+        }
+        img{
+            width: 80%;
+        }
+    }
+    .cont3{
+        width: 90%;
+    }
+    button{
+        font-size: 10px;
+    }
+}
+@media (max-width: 768px){
+    .cont1{
+        font-size: 12px;
+       }
+       .cont2{
+            .mac{
+                font-size: 12px;
+            }
+            img{
+                width: 80%;
+            }
+        }
+        .cont3{
+            width: 90%;
+        }
+        button{
+            font-size: 12px;
+        }
+}
